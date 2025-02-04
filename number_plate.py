@@ -14,12 +14,12 @@ warnings.filterwarnings("ignore")
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Code that generates the warning
-rf = Roboflow(api_key="P9IiYaIfVHvVeY34wk00")
-project = rf.workspace().project("npd-13x9j")
+rf = Roboflow(api_key="")
+project = rf.workspace().project("npd")
 model = project.version(2).model
 
-# rf = Roboflow(api_key="nXBKS3LqUktfCSGkqY2p")
-# project = rf.workspace().project("number-plates-detection-et8rf")
+# rf = Roboflow(api_key="")
+# project = rf.workspace().project("number-plates")
 # model = project.version(1).model
 
 # Load and process the image
